@@ -10,6 +10,6 @@ get_response = requests.get(url,headers=headers)
 content = get_response.text
 
 # Change Path and Filename
-with open("C:\\Users\\tsuyo\\Desktop\\Myip.txt", mode="a") as file:
+with open("<Path><FileName>.txt", mode="a") as file:
     file.write("\n" + content)
     file.close
