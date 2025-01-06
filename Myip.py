@@ -1,3 +1,5 @@
+# This script appends your global IP address to the notepad
+
 import requests
 
 url = "https://api.ipify.org"
